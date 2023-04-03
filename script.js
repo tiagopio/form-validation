@@ -25,7 +25,7 @@ class ValidateForm {
       // If all fields and passwords are valid, show an alert and submit the form.
       if (validFields && validPasswords) {
          alert('Form sent.');
-         this.form.submit();
+         this.form.reset();
       }
    }
 
