@@ -9,7 +9,7 @@ class ValidateForm {
 
    events() {
       // Listen for a "submit" event on the form and call the "handleSubmit" method.
-      this.form.addEventListener('submit', e => {
+      this.form.addEventListener('click', e => {
          this.handleSubmit(e);
       });
    }
