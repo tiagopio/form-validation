@@ -4,7 +4,7 @@
 This was a simple project I made during my initial javascript studies.
 It simulates sending a simple form with a CPF validation.
 
-### WHAT IS CPF?
+## WHAT IS CPF?
 The Cadastro de Pessoas Físicas (CPF) is a database managed by the Brazilian Federal Revenue Service, which stores registration information on taxpayers required to register with the CPF, or on citizens who have voluntarily registered.
 - Algorithm for CPF validation:
   
