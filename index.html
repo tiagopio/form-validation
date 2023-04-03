@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <title>Validate Form</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <section class="container">
+      
+      <h1>Registration Form</h1>
+      <ul>
+         <li>No field can be empty</li>
+         <li>The username can only contain letters and/or numbers</li>
+         <li>Username must be between 3 and 12 characters long</li>
+         <li>Password must be between 6 and 12 characters</li>
+      </ul>
+
+      <form action="/" method="POST" class="form">
+         
+         <label>Name:</label>
+         <input type="text" class="name validate">
+
+         <label>Lastname:</label>
+         <input type="text" class="lastname validate">
+
+         <label>CPF:</label>
+         <input type="text" class="cpf validate">
+
+         <label>Username:</label>
+         <input type="text" class="user validate">
+
+         <label>Password:</label>
+         <input type="password" class="password validate">
+
+         <label>Repeat Password:</label>
+         <input type="password" class="repeat-password validate">
+
+         <button type="submit">Sent</button>
+
+      </form>
+
+   </section>
+
+   <footer class="footer">
+      <p><a rel="nofollow" target="_blank" href="https://github.com/tivgo">Made with <span class="heart">❤</span> by Tiago</a></p>
+   </footer>
+
+   <script src="js/validateCPF.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
