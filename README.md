@@ -1,4 +1,4 @@
-#FORM VALIDATION
+# FORM VALIDATION
 
 ### ABOUT THIS PROJECT
 This was a simple project I made during my initial javascript studies.
