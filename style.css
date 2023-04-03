@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+
+:root {
+   /* mocha theme */
+   --blue: #89b4fa;
+   --text: #cdd6f4;
+   --subtext: #bac2de;
+   --overlay2: #9399b2;
+   --overlay1: #7f849c;
+   --surface2: #585b70;
+   --surface1: #45475a;
+   --base2: #181825;
+   --base1: #28283c;
+}
+
+* {
+   box-sizing: border-box;
+   outline: 0;
+}
+
+body {
+   font-family: 'JetBrains Mono', sans-serif;
+   font-size: 14px;
+
+   margin: 0;
+   top: 0;
+   color: var(--text);
+   background: var(--base2);
+
+   line-height: 1.5em;
+}
+
+.container {
+   max-width: 640px;
+   margin: 50px auto;
+   background: var(--base1);
+   padding: 20px;
+   padding-top: 0;
+   border-style: double;
+   border-color: #cdd6f4;
+}
+
+.container {
+   font-size: 16px;
+   font-weight: bold;
+}
+.container h1 {
+   font-size: 2em;
+}
+
+form input, form label, form button {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+form input {
+   font-family: 'JetBrains Mono', opensans;
+   font-weight: bold;
+   font-size: 18px;
+   color: #363941;
+   height: 35px;
+   padding: 0 5px;
+}
+
+form button {
+   border: var(--subtext);
+   border-style: solid;
+   border-width: 1.5px;
+   background: var(--surface1);
+   color: #cdd6f4;
+   font-size: 18px;
+   font-weight: 600;
+   height: 50px;
+   cursor: pointer;
+   margin-top: 30px;
+}
+
+form button:hover {
+   background: #56596f;
+   transform: scale(2px);
+   box-shadow: 0 3px 5px 2px #00000060;
+}
+
+.footer {
+   text-align: center;
+   font-size: 14px;
+   background: var(--surface2);
+   bottom: 0;
+   position: fixed;
+   width: 100%;
+}
+
+.footer a {
+   color: var(--text);
+   text-decoration: none;
+   font-family: 'JetBrains Mono', opensans;
+   font-weight: 200;
+}
+
+.footer p {
+   color: var(--text);
+   margin: 0;
+}
+
+.heart {
+   color: rgb(248, 65, 65);
+}
+
+.error-text {
+   font-size: 12px;
+   color: rgb(230, 22, 22);
+}
