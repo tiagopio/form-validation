@@ -10,6 +10,7 @@ The Cadastro de Pessoas Físicas (CPF) is a database managed by the Brazilian Fe
   
   ```
   Example of a valid CPF: 705.484.450-52
+  
   7x  0x 5x 4x 8x 4x 4x 5x 0x multiplication
   10  9  8  7  6  5  4  3  2
   70  0  40 28 48 20 16 15 0 = 237 sum
