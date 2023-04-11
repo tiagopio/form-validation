@@ -1,7 +1,7 @@
 # FORM VALIDATION
 
 ## ABOUT THIS PROJECT
-This was a simple project I made during my initial javascript studies.
+This was a simple project I made during my initial JavaScript studies.
 It simulates sending a simple form with a CPF validation.
 
 ## WHAT IS CPF?
